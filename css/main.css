@@ -1,28 +1,32 @@
 html {
   box-sizing: border-box;
   background-color: #f2f2f2;
-  font-family: Goergia, serif;
+  font-family: goergia, serif;
   line-height: 1.5;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 .cards {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
+
 .cards li {
   display: inline-block;
   margin: 0 .5em 1em;
   max-width: 20em;
   padding: 1em;
-  background-color: #f2f2f2;
+  background-color: #fff;
   border: 3px solid #e2e2e2;
   border-radius: 10px;
   text-align: left;
 }
+
 .cards img {
   display: block;
   margin: 0 auto 1rem;
@@ -35,14 +39,15 @@ html {
   font-size: 1.125rem;
   text-align: left;
 }
+
 .cards dl {
   margin-bottom: 1rem;
 }
 
 .cards dt {
-display: inline-block;
-width: 6em;
-font-style: italic;
+  display: inline-block;
+  width: 6em;
+  font-style: italic;
 }
 
 .cards dd {
@@ -52,7 +57,7 @@ font-style: italic;
 }
 
 .cards div {
-  text-align:center;
+  text-align: center;
 }
 
 .cards a {
